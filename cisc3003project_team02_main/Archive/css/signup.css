@@ -1,0 +1,185 @@
+.cssmenu > ul > li.active a, .cssmenu > ul > li a:hover {
+	color: #000;
+	background:#fff;
+	}
+.cssmenu > ul > li > a.big {
+	text-transform: uppercase;
+	font-family: 'bebas_neueregular';
+	display: block;
+	line-height: 2.8em;
+	padding: 2px 50px;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#login {
+	float: left;/*ȡ������*/
+	height: 50px;
+	width: 100px;
+	background-color: gainsboro;
+}
+#signup {
+	float: left;
+	height: 50px;
+	width: 100px;
+	background-color: transparent;
+}
+
+
+#login p {
+	font-family: "΢���ź�";
+	font-size: large;
+	position: relative;
+	color: red;
+	top: -8px;
+	left: 25px;
+}
+#signup p {
+	font-family: "΢���ź�";
+	font-style: italic;
+	font-size: larger;
+	color: #FF0000;
+	position: relative;
+	top: -8px;
+	left: 15px;
+}
+
+#login a:hover {
+	font-size: larger;
+	color: #FF0000;
+}
+#login:hover {
+	background-color: cornsilk;
+}
+
+#myDiv {
+	top: 120px;
+	position: relative;
+	margin: auto auto auto auto;/*����Ч��*/
+	/*background-color: darkgray;*/
+	background-color: transparent;
+	width: 600px;
+	height: 700px;
+}
+
+
+#myForm {
+	position: relative;
+	top: -100px;
+	margin: auto auto auto auto;
+	background-color: blanchedalmon;
+	width: 550px;
+	height: 500px;
+}
+
+
+#myNav {
+	position: relative;
+	margin: auto auto auto auto;
+	top: -100px;
+	background-color: #CCCCCC;
+	width: 200px;
+	height: 50px;
+}
+
+#div1 {
+	width: 10px;
+	height: 50px;
+} 
+
+
+#usernameDiv,#passwordDiv,#repasswordDiv,#sexDiv,#birthdayDiv,#mailboxDiv,#phoneDiv,#addressDiv,#vercodeDiv {
+	background-color: #CCCCCC;
+	height: 34px;
+	border: 1px solid black;
+}
+
+#passwordDiv,#repasswordDiv,#sexDiv,#birthdayDiv,#mailboxDiv,#phoneDiv,#addressDiv,#vercodeDiv {
+	margin-top: 30px;
+}
+
+#usernameDiv input,#passwordDiv input,#repasswordDiv input,#mailboxDiv input,#phoneDiv input,#addressDiv input,#vercodeDiv input {
+	padding-left: 8px;
+	margin-left: 50px;
+	width: 280px;
+	height: 28px;
+	border: 1px solid;
+	font-size: 20px;
+}
+
+#repasswordDiv input,#mailboxDiv input,#phoneDiv input {
+	margin-left: 14px;
+}
+
+#vercodeDiv input {
+	margin-left: 32px;
+}
+
+
+#div2 {
+	width:500px;
+} 
+
+#submitDiv {
+	float: left;
+	width:50%;
+	margin-top: 20px;
+}
+
+#resetDiv {
+	float: left;
+	width:50%;
+	margin-top: 20px;
+}
+
+#submitDiv input,#resetDiv input {
+	font-family:  "΢���ź�";
+	font-size: large;
+	font-style: bold;
+	color: black;
+	background-color: aliceblue;
+	width: 100px;
+	height: 50px;
+	border: 1px solid;
+}
+
+
+#submit,#reset {
+	margin-left: 100px;
+	border: 1px;
+	display: block;
+}
+#submit:hover,#reset:hover {
+	background-color: black;
+	font-size: larger;
+	font-style: bold;
+	text-decoration: underline;
+	color: white;
+}
+
+
+.s {
+	margin-left: 60px;
+	font-family: "΢���ź�";
+	font-size: large;
+}
+
+.space{
+	width:300px;
+}
+div form input[type="Captcha"]{
+    position:relative;
+    top:60px;
+    right:140px;
+}
+div form input[type="button"]{
+    position:relative;
+    left:90px;
+    bottom:7px;
+}

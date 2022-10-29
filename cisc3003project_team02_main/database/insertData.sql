@@ -1,0 +1,11 @@
+use HamburgerData;
+delete from food;
+insert into food values('ham',6);
+insert into food values('pork',8);
+insert into food values('beef',10);
+insert into food values('fish',10);
+insert into food values('sauce',1);
+insert into food values('cheese',3);
+insert into food values('filet-o-fish',13);
+insert into food values('chicken_burger',15);
+insert into food values('beef_burger',20);
